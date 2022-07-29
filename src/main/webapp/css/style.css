@@ -74,10 +74,10 @@ h2{font-weight:normal;}
 .user i{display:inline-block;margin-right:5px;font-style:normal;line-height:30px; font-size:14px;color:#b8ceda;}
 
 /*left.html*/
-.lefttop{background:url(../images/lefttop.gif) repeat-x;height:40px;color:#fff;font-size:14px;line-height:40px;}
-.lefttop span{margin-left:8px; margin-top:10px;margin-right:8px; background:url(../images/leftico.png) no-repeat; width:20px; height:21px;float:left;}
-.leftmenu{width:187px;padding-bottom: 9999px;margin-bottom: -9999px; overflow:hidden; background:url(../images/leftline.gif) repeat-y right;}
-.leftmenu dd{background:url(../images/leftmenubg.gif) repeat-x;line-height:35px;font-weight:bold;font-size:14px;border-right:solid 1px #b7d5df;}
+.lefttop{background:#00a4ac;height:40px;color:#fff;font-size:14px;line-height:40px;}
+.lefttop span{margin-left:8px; margin-top:10px;margin-right:8px; background:#00a4ac; width:20px; height:21px;float:left;}
+.leftmenu{width:187px;padding-bottom: 9999px;margin-bottom: -9999px; overflow:hidden; }
+.leftmenu dd{line-height:35px;font-weight:bold;font-size:14px;border-right:solid 1px #b7d5df;}
 .leftmenu dd span{float:left;margin:10px 8px 0 12px;}
 .leftmenu dd .menuson{display:none;}
 .leftmenu dd:first-child .menuson{display:block;}
@@ -187,24 +187,24 @@ h2{font-weight:normal;}
 .forminfo li i{color:#7f7f7f; padding-left:20px; font-style:normal;}
 .forminfo li cite{display:block; padding-top:10px;}
 .dfinput{width:345px; height:32px; line-height:32px; border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; text-indent:10px;}
-.textinput{border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; padding:10px; width:504px; height:135px; line-height:20px; overflow:hidden;}
-.btn{width:137px;height:35px; background:url(../images/btnbg.png) no-repeat; font-size:14px;font-weight:bold;color:#fff; cursor:pointer;}
+.textinput{border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; padding:10px; width:504px; height:135px; line-height:20px; overflow:hidden;}
+.btn{width:137px;height:35px;  font-size:14px;font-weight:bold; cursor:pointer;}
 
 
 /*tip*/
-.tip{width:485px; height:260px; position:absolute;top:10%; left:30%;background:#fcfdfd;box-shadow:1px 8px 10px 1px #9b9b9b;border-radius:1px;behavior:url(../js/pie.htc); display:none; z-index:111111;}
-.tiptop{height:40px; line-height:40px; background:url(../images/tcbg.gif)  repeat-x; cursor:pointer;}
+.tip{width:485px; height:260px; position:absolute;top:10%; left:30%;background:#fcfdfd;box-shadow:1px 8px 10px 1px #9b9b9b;border-radius:1px; display:none; z-index:111111;}
+.tiptop{height:40px; line-height:40px;  repeat-x; cursor:pointer;}
 .tiptop span{font-size:14px; font-weight:bold; color:#fff;float:left; text-indent:20px;}
-.tiptop a{display:block; background:url(../images/close.png) no-repeat; width:22px; height:22px;float:right;margin-right:7px; margin-top:10px; cursor:pointer;}
-.tiptop a:hover{background:url(../images/close1.png) no-repeat;}
+.tiptop a{display:block; background:#CCFF99 no-repeat; width:22px; height:22px;float:right;margin-right:7px; margin-top:10px; cursor:pointer;}
+.tiptop a:hover{background:#CCFF99 no-repeat;}
 .tipinfo{padding-top:30px;margin-left:65px; height:95px;}
 .tipinfo span{width:95px; height:95px;float:left;}
 .tipright{float:left;padding-top:15px; padding-left:10px;}
 .tipright p{font-size:14px; font-weight:bold; line-height:35px;}
 .tipright cite{color:#858686;}
 .tipbtn{margin-top:25px; margin-left:125px;}
-.sure ,.cancel{width:96px; height:35px; line-height:35px; color:#fff; background:url(../images/btnbg1.png) repeat-x; font-size:14px; font-weight:bold;border-radius: 3px; cursor:pointer;}
-.cancel{background:url(../images/btnbg2.png) repeat-x;color:#000;font-weight:normal;}
+.sure ,.cancel{width:96px; height:35px; line-height:35px; color:#fff; background:#66CCCC repeat-x; font-size:14px; font-weight:bold;border-radius: 3px; cursor:pointer;}
+.cancel{background:#66CCCC repeat-x;color:#000;font-weight:normal;}
 
 /*tools*/
 .toolsli{clear:both; overflow:hidden; margin-bottom:20px;}
@@ -224,21 +224,21 @@ h2{font-weight:normal;}
 
 /*computer*/
 .comtitle{padding:20px; clear:both;}
-.comtitle span{width:10px;height:10px; background:url(../images/clist.png) no-repeat; float:left; background:#fff; padding-top:3px;}
+.comtitle span{width:10px;height:10px; background:#66CCCC no-repeat; float:left; background:#fff; padding-top:3px;}
 .comtitle h2{font-size:14px; display:block; float:left;color:#2a3e93; background:#fff; padding-left:5px; padding-right:8px;}
 .rline{border-bottom:solid 1px #e5ecf0; height:10px; margin-left:50px;}
 .disklist{padding-left:20px; padding-right:20px;}
 .disklist li{width:275px;_width:270px;float:left; margin-right:10px;height:70px; cursor:pointer; margin-bottom:5px;border:solid 1px #fff;}
 .disklist li a{color:#000;}
 .disklist li:hover{background:#fcfcfc; border:solid 1px #e5ecf0;}
-.dleft{background:url(../images/c02.png) no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
-.dleft1{background:url(../images/c01.png) no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
-.dleft2{background:url(../images/c03.png) no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
+.dleft{background:#66CCCC no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
+.dleft1{background:#66CCCC no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
+.dleft2{background:#66CCCC no-repeat; height:50px; margin-left:12px; float:left; width:50px; margin-top:15px;}
 .dright{float:left; margin-left:10px; margin-top:5px;}
 .dright h3{font-weight:normal; padding-top:15px;}
 .dright p{color:#949494;}
-.dinfo{width:189px;height:15px; background:url(../images/diskbg.png) no-repeat; margin-top:5px; margin-bottom:5px;}
-.dinfo span{background:url(../images/cbg.png) repeat-x; height:15px;}
+.dinfo{width:189px;height:15px; background:#CCFFFF no-repeat; margin-top:5px; margin-bottom:5px;}
+.dinfo span{background:#CCFFFF repeat-x; height:15px;}
 .filetable{width:100%;}
 .filetable thead tr{background:#f5f9fb; line-height:35px;}
 .filetable thead tr th{text-align:left; text-indent:15px;font-weight:normal;color:#597190;}
@@ -253,13 +253,13 @@ h2{font-weight:normal;}
 .imglist li:hover{border:solid 1px #d7e4ea;}
 .imglist li span{width:168px; height:126px; margin:8px;}
 .imglist li h2{text-align:center; line-height:25px;}
-.imglist li p{text-align:center; line-height:17px; background:url(../images/line1.png) center center no-repeat;}
+.imglist li p{text-align:center; line-height:17px; background:#CCFFFF center center no-repeat;}
 .imglist li p a{color:#1f7cb6;}
 .imglist li p a:hover{color:#F60;}
 
 /*imgtable*/
 .imgtable{width:100%;border:solid 1px #cbcbcb; }
-.imgtable th{background:url(../images/th.gif) repeat-x; height:34px; line-height:34px; border-bottom:solid 1px #b6cad2; text-indent:21px; text-align:left;}
+.imgtable th{background:#CCFFFF repeat-x; height:34px; line-height:34px; border-bottom:solid 1px #b6cad2; text-indent:21px; text-align:left;}
 .imgtable td{line-height:20px; text-indent:21px; border-right: dotted 1px #c7c7c7;}
 .imgtable td img{margin:10px 20px 10px 0;}
 .imgtable td p{color:#919191;}
@@ -294,4 +294,4 @@ h2{font-weight:normal;}
 .seachform li{float:left; margin-right:15px;}
 .seachform li label{padding-right:10px; float:left; line-height:32px;}
 .scinput{width:150px; height:32px; line-height:32px; border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; text-indent:10px;}
-.scbtn{width:85px;height:35px; background:url(../images/btnbg.png) no-repeat center; font-size:14px;font-weight:bold;color:#fff; cursor:pointer;border-radius:3px; behavior:url(../js/pie.htc);}
+.scbtn{width:85px;height:35px; background:#CCFFFF no-repeat center; font-size:14px;font-weight:bold;color:#fff; cursor:pointer;border-radius:3px; behavior:url(../js/pie.htc);}
