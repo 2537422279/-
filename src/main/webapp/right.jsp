@@ -45,10 +45,10 @@ request.setCharacterEncoding("UTF-8");
 				</c:when>
 				<c:when test="${sessionScope.login_user.roleId==2}">
 					<p>
-							<a href="${pageContext.request.contextPath}/findNewsByPage.action">查询新闻</a>
+							<a href="${pageContext.request.contextPath}/findNewsByPage">查询新闻</a>
 					</p>
 					<p>
-							<a href="${pageContext.request.contextPath}/toAddNews.action">发布新闻</a>
+							<a href="${pageContext.request.contextPath}/toAddNews">发布新闻</a>
 					</p>
 				</c:when>
 			</c:choose>

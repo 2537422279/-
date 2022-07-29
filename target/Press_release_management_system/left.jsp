@@ -44,7 +44,7 @@ $(function(){
 				</dd>
 				<dd>
 					<div class="title">
-						<span><img src="images/leftico02.png" /></span>新闻类别管理
+							新闻类别管理
 					</div>
 					<ul class="menuson">
 						<li><cite></cite><a href="${pageContext.request.contextPath}/findCategoryList"
@@ -60,9 +60,9 @@ $(function(){
 						新闻管理
 					</div>
 					<ul class="menuson">
-						<li><cite></cite><a href="${pageContext.request.contextPath}/findNewsByPage.action"
+						<li><cite></cite><a href="${pageContext.request.contextPath}/findNewsByPage"
 							target="rightFrame">新闻列表</a><i></i></li>
-						<li><cite></cite><a href="${pageContext.request.contextPath}/toAddNews.action"
+						<li><cite></cite><a href="${pageContext.request.contextPath}/toAddNews"
 							target="rightFrame">发布新闻</a><i></i></li>
 					</ul>
 				</dd>
